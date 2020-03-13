@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="tugas3.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Courgette|EB+Garamond|Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tugas3.css">
+    <title>Tugas 3</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a class="active" href="index.html#home">Home</a></li>
+            <li><a href="index.html#task">Task</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Latihan Membuat Form untuk Menghitung Rata-Rata, Median, Nilai Maksimum, dan Nilai Minimum</h1>
+    <div class="wrapCalculator">
+        <form id="form">
+            <p>Nilai - 1 = <input type="number" id="number1" /></p>
+            <p>Nilai - 2 = <input type="number" id="number2" /></p>
+            <p>Nilai - 3 = <input type="number" id="number3" /></p>
+            <p>Nilai - 4 = <input type="number" id="number4" /></p>
+            <p>Nilai - 5 = <input type="number" id="number5" /></p>
+    
+            <button type="button" onclick="calculateValue()">Hitung</button>
+            <button type="button" onclick="resetValue()">Reset</button>
+        </form>
+        <div class="result">
+            <p id="avrg"></p>
+            <p id="med"></p>
+            <p id="max"></p>
+            <p id="min"></p>    
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+body{
+    margin: auto;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    width: 8.5%;
+    height: 100%;
+    list-style-type: none;
+    background-color: #514438;
+    position: fixed;
+    overflow: auto;
+}
+nav li a{
+    margin-bottom: 20%;
+    padding: 20% 16%;
+    display: block;
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+}
+nav li a.active{
+    margin-bottom: 100%;
+    background-color: #F7F2CB;
+    color: #a0846b;
+}
+nav li a:hover{
+    background-color: #F7F2CB;
+    color: #a0846b;
+    transition: 2s;
+}
+.myHome{
+    margin-left: 8.5%;
+    padding: 2% 5%;
+    background-image: url('latar1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.myHome img{
+    margin: 22% auto 5% auto;
+    width: 13%;
+    display: block;
+    border: solid 4px #F7F2CB;
+    border-radius: 100%;
+}
+.myHome h1{
+    margin-bottom: 3%;
+    font-family: 'Merienda One', cursive;
+    color: whitesmoke;
+}
+.myHome h2{
+    margin-bottom: 1%;
+    font-family: 'Merienda One', cursive;
+    color: #CBD7AB;
+}
+.myHome h3{
+    margin-bottom: 5%;
+    font-family: 'Aclonica', sans-serif;
+    color: rgb(188, 145, 152);
+}
+.myTask{
+    margin-left: 8.5%;
+    padding: 5% 3%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #F7F2CB;
+    color: #514438;
+    font-size: 125%;
+    text-align: center;
+}
+.myTask img{
+    margin: 5% auto;
+    height: 100%;
+    width: 60%;
+}
+.myTask a{
+    color: #514438;
+}
+.aboutMe{
+    margin-left: 8.5%;
+    padding: 2% 5%;
+    background-image: linear-gradient(to top, #514438, #796b59, #a3957d, #cdc2a3, #f7f2cb);
+}
+.aboutMe img{
+    margin: 2% auto;
+    width: 50%;
+    float: left;
+    display: block;
+}
+.aboutMe h1{
+    font-size: 250%;
+    font-family: 'Caveat Brush', cursive;
+    color: #514438;
+    text-align: center;
+}
+.aboutMe p{
+    font-size: 200%;
+    font-family: 'Mali', cursive;
+    text-align: justify;
+}
+.contactMe{
+    margin-left: 8.5%;
+    padding: 10% 5%;
+    text-align: center;
+    background-color: #514438;
+    color: #F7F2CB;
+}
+.contactMe h1{
+    padding: 4%;
+    font-family: 'Galada', cursive;
+    font-size: 200%;
+}
+.contactMe span{
+    font-family: 'Lobster Two', cursive;
+    font-size: 150%;
+}
+.contactMe .wrapContact{
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    font-family: serif;
+    font-size: 150%;
+}

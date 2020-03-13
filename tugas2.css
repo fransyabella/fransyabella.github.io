@@ -1,0 +1,124 @@
+body{
+    background-color: #514438;
+    color: ivory;
+}
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: 1s;
+}
+nav li a:hover{
+    background-color: rgb(218, 162, 162);
+    color:#514438;
+}
+.title img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    border-radius: 100%;
+    border: solid 3px #fffefd;
+}
+.title h1{
+    text-align: center;
+}
+.content{
+    margin: 5%;
+}
+table, th, td{
+    margin: 2% auto;
+    padding: 10px;
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid #514438;
+    font-size: 20px;
+}
+table caption{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+}
+th{
+    background-color: #514438;
+    color: #F7F2CB;
+}
+td{
+    background-color: transparent;
+    color: #F7F2CB;
+}
+.education h3{
+    font-family: 'Lateef', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.wrapEducation{
+    margin: 2% 20%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1%;
+    background-color: #F7F2CB;
+}
+.wrapEducation .educationItem{
+    color: #c5aa91;
+    background-color: #514438;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+.wrapEducation .educationItem:hover{
+    background-color: rgb(218, 162, 162);
+    color: #725840;
+}
+.job{
+    border: 2px solid rgb(235, 199, 199);
+    color: rgb(235, 199, 199); 
+    text-align: center;
+    font-size: 20px;
+}
+.training img{
+    padding-bottom: 10%;
+    margin: auto;
+    float: right;
+}
+.training caption{
+    font-family: 'Aladin', cursive;
+    font-size: 30px;
+}
+.bar{
+    width: 100%;
+}
+.html{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 75%; 
+    background-color: rgba(76, 175, 79, 0.411);
+}
+.css{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 85%;
+    width: 70%; 
+    background-color: rgba(33, 149, 243, 0.315);
+}
+.english{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 85%;
+    width: 80%; 
+    background-color: #f443365b;
+}
